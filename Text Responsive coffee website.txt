@@ -1,0 +1,116 @@
+========== HEADER ==========
+.nav__logo
+STARCOFFEE
+
+.nav__link
+HOME - POPULAR - ABOUT US - PRODUCTS - CONTACT
+
+
+========== HOME ==========
+.home__title
+COLD COFFEE
+
+.home__description
+Find delicious hot and cold coffees with the 
+best varieties, calm the pleasure and enjoy 
+a good coffee, order now.
+
+.button
+Learn More
+
+
+========== POPULAR ==========
+.section__title
+POPULAR <br> CREATIONS
+
+.popular__name
+VANILLA LATTE
+CLASSIC COFFEE
+MOCHA COFFEE
+
+.popular__description
+Indulge in the simplicity of our delicious cold brew coffee.
+
+.button
+Order now: $19.90
+
+
+========== ABOUT ==========
+.section__title
+LEARN MORE <br> ABOUT US
+
+.about__description
+Welcome to StarCoffee, where coffee is pure passion. 
+From bean to cup, we are dedicated to delivering 
+excellence in every sip. Join us on a journey of 
+flavor and quality, crafted with love to create the 
+ultimate coffee experience.
+
+.button
+The Best Coffees
+
+
+========== PRODUCTS ==========
+.section__title
+THE MOST <br> REQUESTED
+
+.products__name .products__price
+ICED COFFEE MOCHA
+$15.90
+
+COFFEE WITH CREAM
+$11.90
+
+CAPPUCCINO COFFEE
+$19.90
+
+COFFEE WITH MILK
+$9.90
+
+CLASSIC ICED COFFEE
+$5.90
+
+ICED COFFEE FRAPPE
+$16.90
+
+
+========== CONTACT ==========
+.section__title
+CONTACT US
+
+.contact__title .contact__address
+Write Us
+https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
+https://m.me/bedimcode
+https://t.me/telegram
+
+Location
+Lima - Sun City - Peru <br>
+Av. Moon #4321
+
+https://maps.app.goo.gl/MAmMDxUBFXBSUzLH7
+View On Map
+
+Delivery
++00-987-7654-321 <br>
++11-012345
+
+Attention
+Monday - Saturday <br> 9AM - 10PM
+
+
+========== FOOTER ==========
+.footer__title
+Social
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+Payment Methods
+
+Subscribe For Discounts
+Email
+Subscribe
+
+.footer__copy
+&#169; All Rights Reserved By Bedimcode
