@@ -1,108 +1,394 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hive Pastries | Artisanal Bakery</title>
+    <meta name="description" content="Hive Pastries is an artisanal bakery crafting the finest pastries with a touch of honey-inspired sweetness." />
+    <meta name="author" content="Hive Pastries" />
+    <meta property="og:image" content="assets/img/481286904_1205087284957430_6388348766344271560_n.jpg" />
+    <link rel="icon" type="image/png" href="assets/img/481286904_1205087284957430_6388348766344271560_n.jpg" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+  </head>
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="assets/img/481286904_1205087284957430_6388348766344271560_n.jpg" alt="Hive Pastries Logo">
+        </a>
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+        <div class="desktop-nav">
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#location">Location</a>
+          <a href="#contact" class="btn-primary">Contact Us</a>
+        </div>
 
-      <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="">
+        <button id="mobile-menu-btn" class="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+      <div id="mobile-menu" class="mobile-menu">
+        <div class="container">
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#location">Location</a>
+          <a href="#contact" class="btn-secondary">Contact Us</a>
+        </div>
+      </div>
+    </nav>
 
-      <title>Responsive coffee website - Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         <nav class="nav container">
-            <a href="#" class="nav__logo">Hive Pastries</a>
-            
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li>
-                     <a href="#home" class="nav__link">HOME</a>
-                  </li>
-
-                  <li>
-                     <a href="#popular" class="nav__link">POPULAR</a>
-                  </li>
-
-                  <li>
-                     <a href="#about" class="nav__link">ABOUT US</a>
-                  </li>
-
-                  <li>
-                     <a href="#products" class="nav__link">PRODUCTS</a>
-                  </li>
-
-                  <li>
-                     <a href="#contact" class="nav__link">CONTACT</a>
-                  </li>
-               </ul>
-
-               <!-- Close button -->
-                <div class="nav__close" id="nav-close">
-                  <i class="ri-close-large-line"></i>
-                </div>
-            </div>
-
-            <!-- Toggle button -->
-            <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-apps-2-fill"></i>
-            </div>
-         </nav>
-      </header>
-
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            
-         </section>
-
-         <!--==================== POPULAR ====================-->
-         <section class="popular section" id="popular">
-            
-         </section>
-
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            
-         </section>
-
-         <!--==================== PRODUCTS ====================-->
-         <section class="products section" id="products">
-            
-         </section>
-
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            
-         </section>
-      </main>
-
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         
-      </footer>
-
-      <!--========== SCROLL UP ==========-->
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="honeycomb-pattern"></div>
+      <div class="floating-shape shape1"></div>
+      <div class="floating-shape shape2"></div>
+      <div class="floating-shape shape3"></div>
       
+      <div class="container grid-2">
+        <div class="hero-content">
+          <span class="badge">Artisanal Bakery</span>
+          <h1>Sweet Delights, <br>Crafted with Love</h1>
+          <p>
+            Discover our handcrafted pastries made with the finest ingredients and infused with natural honey. Each bite is a piece of heaven.
+          </p>
+          <div class="button-group">
+            <a href="#products" class="btn-primary">
+              Explore Our Pastries <span class="arrow-right">→</span>
+            </a>
+            <a href="#location" class="btn-outline">
+              Visit Us
+            </a>
+          </div>
+        </div>
+        
+        <div class="hero-image">
+          <div class="image-glow"></div>
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Assorted pastries">
+        </div>
+      </div>
+    </div>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div class="about-content">
+          <span class="badge">About Us</span>
+          <h2>Our Sweet Journey</h2>
+          <p>
+            Hive Pastries was born from a passion for creating exceptional baked goods that bring joy to everyone who tastes them. Our journey began in a small kitchen with big dreams and a love for traditional baking methods.
+          </p>
+          <p>
+            Today, we continue to handcraft our pastries using only the finest ingredients, including our signature locally-sourced honey. Every item is made with attention to detail and a commitment to quality that you can taste in every bite.
+          </p>
+          
+          <div class="features-grid">
+            <div class="feature">
+              <span class="feature-icon">✓</span>
+              <div>
+                <h4>Premium Ingredients</h4>
+                <p>Only the finest quality</p>
+              </div>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">✓</span>
+              <div>
+                <h4>Artisanal Methods</h4>
+                <p>Handcrafted with care</p>
+              </div>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">✓</span>
+              <div>
+                <h4>Local Honey</h4>
+                <p>Sustainably sourced</p>
+              </div>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">✓</span>
+              <div>
+                <h4>Fresh Daily</h4>
+                <p>Baked every morning</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-image">
+          <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1517433367423-c7e5b0f35086?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Bakery interior">
+          </div>
+          <div class="decorative-square square1"></div>
+          <div class="decorative-square square2"></div>
+          
+          <div class="stats-card card1">
+            <div class="card-header">
+              <span class="card-icon">🍰</span>
+              <span>Fresh Daily</span>
+            </div>
+            <p>Baked at 5AM every day</p>
+          </div>
+          
+          <div class="stats-card card2">
+            <div class="card-header">
+              <span class="card-icon">☕</span>
+              <span>Perfect Pair</span>
+            </div>
+            <p>With our artisan coffee</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
+    <!-- Products Section -->
+    <section id="products" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Our Products</span>
+          <h2>Handcrafted with Passion</h2>
+          <p>
+            Our pastries are made daily with premium ingredients and a touch of sweetness from our locally sourced honey.
+          </p>
+        </div>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+        <div class="category-tabs">
+          <button class="active" data-category="all">All</button>
+          <button data-category="pastries">Pastries</button>
+          <button data-category="bread">Bread</button>
+          <button data-category="cakes">Cakes</button>
+          <button data-category="honey">Honey Treats</button>
+        </div>
+
+        <div class="products-grid" id="products-grid">
+          <!-- Products will be inserted by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section bg-cream">
+      <div class="honeycomb-pattern"></div>
+      
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Testimonials</span>
+          <h2>What Our Customers Say</h2>
+          <p>
+            Don't just take our word for it – here's what our satisfied customers have to say about our pastries.
+          </p>
+        </div>
+        
+        <div class="testimonials-container">
+          <div class="testimonials-slider" id="testimonials-slider">
+            <!-- Testimonials will be inserted by JavaScript -->
+          </div>
+          
+          <div class="testimonials-controls">
+            <button id="prev-testimonial" aria-label="Previous testimonial">
+              ←
+            </button>
+            
+            <div class="testimonials-indicators" id="testimonials-indicators">
+              <!-- Indicators will be inserted by JavaScript -->
+            </div>
+            
+            <button id="next-testimonial" aria-label="Next testimonial">
+              →
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section">
+      <div class="container grid-2">
+        <div class="location-content">
+          <span class="badge">Location & Hours</span>
+          <h2>Visit Our Bakery</h2>
+          <p>
+            Stop by our bakery to experience the aroma of freshly baked pastries and watch our artisans at work. We'd love to welcome you to our hive of sweet delights.
+          </p>
+          
+          <div class="info-list">
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div>
+                <h4>Our Address</h4>
+                <p>123 Sweet Street, Honey Hills, BEE 567</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">🕒</div>
+              <div>
+                <h4>Opening Hours</h4>
+                <p>Monday - Friday: 7:00 AM - 7:00 PM</p>
+                <p>Saturday - Sunday: 8:00 AM - 5:00 PM</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div>
+                <h4>Contact</h4>
+                <p>Phone: (555) 123-4567</p>
+                <p>Email: hello@hivepastries.com</p>
+              </div>
+            </div>
+          </div>
+          
+          <a href="#contact" class="btn-primary">
+            Get in Touch <span class="arrow-right">→</span>
+          </a>
+        </div>
+        
+        <div class="location-map">
+          <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Bakery location">
+          
+          <div class="location-marker">
+            <div class="marker-pulse"></div>
+            <div class="marker-dot">📍</div>
+          </div>
+          
+          <div class="location-card">
+            <h4>Hive Pastries</h4>
+            <p>123 Sweet Street, Honey Hills</p>
+            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">
+              Get Directions →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section (retain existing React component) -->
+    <section id="contact" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">Contact Us</span>
+          <h2>Get in Touch</h2>
+          <p>
+            Have a question or want to place a special order? Send us a message and we'll get back to you as soon as possible.
+          </p>
+        </div>
+        
+        <div class="contact-form-container">
+          <form id="contact-form" class="contact-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              
+              <div class="form-group full-width">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              
+              <div class="form-group full-width">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+            </div>
+            
+            <button type="submit" class="btn-primary">
+              Send Message <span class="arrow-right">→</span>
+            </button>
+          </form>
+          
+          <div id="form-success" class="form-success">
+            <div class="success-icon">✓</div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. We'll get back to you shortly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <img src="/assets/img/481286904_1205087284957430_6388348766344271560_n.jpg" alt="Hive Pastries Logo" class="footer-logo">
+            <p>
+              Artisanal bakery crafting the finest pastries with a touch of honey-inspired sweetness.
+            </p>
+            <div class="social-links">
+              <a href="#" aria-label="Instagram">📷</a>
+              <a href="#" aria-label="Facebook">👍</a>
+              <a href="#" aria-label="Twitter">🐦</a>
+            </div>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">→ About Us</a></li>
+              <li><a href="#products">→ Our Products</a></li>
+              <li><a href="#testimonials">→ Testimonials</a></li>
+              <li><a href="#location">→ Location</a></li>
+              <li><a href="#contact">→ Contact Us</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Our Products</h4>
+            <ul>
+              <li><a href="#">→ Pastries</a></li>
+              <li><a href="#">→ Bread</a></li>
+              <li><a href="#">→ Cakes</a></li>
+              <li><a href="#">→ Honey Treats</a></li>
+              <li><a href="#">→ Gift Boxes</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>
+              Subscribe to our newsletter for the latest updates and special offers.
+            </p>
+            <form class="newsletter-form">
+              <div class="form-group">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">→</button>
+              </div>
+            </form>
+            <p class="small-text">
+              By subscribing, you agree to our Privacy Policy.
+            </p>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="current-year"></span> Hive Pastries. All rights reserved.
+          </p>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
